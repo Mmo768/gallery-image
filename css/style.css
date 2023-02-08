@@ -1,0 +1,31 @@
+.item{
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    left: 10%;
+    background-color: white;
+    padding: 5px 10px;
+    transform: translateY(calc(100% + 30px));
+    transition: .3s 0s all linear;
+}
+
+.box:hover .item{
+    transform: translateY(0px);
+}
+
+.modal{
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.icon{
+    width: calc(100% - 32px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.row img{
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
